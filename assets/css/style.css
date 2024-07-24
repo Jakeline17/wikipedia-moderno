@@ -3,14 +3,58 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header{
+    background-color:#1E3A5F;
+    color:#F0F0F0;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-right:40px;
+}
+.logo h1 {
+    margin: 0 20px 0 0 ;
+}
+
+h1, h2, h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+a { color:whitesmoke; text-decoration: none;}
+
 .bar {
-    background-color: #f9f9fb;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color:#006400;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+.bar ul li{
+    display:inline-block;
+    padding-inline:15px;
+    color:whitesmoke;
+
+}
+.search {
+    display:inline-block;
+    align-items: center;
+}
+.search input {
+    padding: 5px;
+    margin-right: 5px; 
+}
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -27,8 +71,29 @@ a { color:blue; text-decoration: none;}
     border-top: solid 1px #cdcdcd;
 }
 .anchors {
+    background-color:#F0F0F0;
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+}
+.anchors a {
+    color:#FF6F00; ;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.anchors a:hover {
+    background-color:#FF6F00;
+    color:#1E3A5F;
+}
+.anchors ul li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom:10px;  
+}
+.tabela th,td,tr {
+    border-style:solid;
+
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
@@ -36,3 +101,51 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
+.Rodapé {
+    background-color:#1E3A5F;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+.Rodapé h4{
+    color: #FF6F00;
+    margin-bottom: 10px;
+}
+.Rodapé p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.Rodapé ul li{
+display: inline-block;
+margin: 0 10px;
+margin-bottom:10px;  
+}
+.Rodapé a {
+    color:#FF6F00; ;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+.Rodapé a:hover{
+    background-color:#FF6F00;
+    color:#1E3A5F;
+}
+
+.Personagens{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.Personagens img {
+    margin-right: 20px;
+}
+.Personagens p {
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
